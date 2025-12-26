@@ -1,0 +1,17 @@
+{
+  "name": "invoice-memory-layer",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "demo": "node --loader ts-node/esm src/demo/runDemo.ts"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.7",
+    "sqlite": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.0"
+  }
+}
